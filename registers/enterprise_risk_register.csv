@@ -1,0 +1,9 @@
+Risk ID,Domain,Asset,Threat,Vulnerability,Existing Controls,Likelihood,Impact,Risk Score,Risk Rating,Residual Risk,Treatment Decision,Owner,Escalation Required,Review Date
+ER-01,Identity & Access,Azure Entra Admin Roles,Account compromise,Excess standing privilege,RBAC groups MFA reviews,3,5,15,High,Medium,Mitigate,IAM,Yes,Quarterly
+ER-02,Third-Party / Vendor,High-Risk SaaS Vendors,Vendor breach,Limited oversight,Questionnaires contracts,3,5,15,High,Medium,Transfer + Mitigate,Vendor Risk,Yes,Quarterly
+ER-03,Zero Trust / Remote Access,Remote Access Broker,Access bypass,Misconfigured routing,Broker MFA logging,2,5,10,Medium-High,Low,Mitigate,Network Security,Yes,Quarterly
+ER-04,SOX ITGC,Financial Applications,Unauthorized access,Incomplete access reviews,Manual certifications,3,5,15,High,Medium,Mitigate,GRC,Yes,Quarterly
+ER-05,Monitoring & IR,SIEM and IR Processes,Delayed response,Untested procedures,Logging IR plan,2,4,8,Medium,Medium,Accept (Conditions),SecOps,No,Semi-Annual
+ER-06,Third-Party / Vendor,External SaaS Vendors,Service breach,Limited transparency,Contracts SLAs,2,4,8,Medium,Medium,Transfer,Vendor Risk,No,Annual
+ER-07,Identity & Access,Low Sensitivity Apps,User error,Residual access,RBAC reviews,1,2,2,Low,Low,Accept,IAM,No,Annual
+ER-08,Cloud & Infrastructure,Azure Resources,Resource exposure,Misconfiguration,Baselines change mgmt,2,4,8,Medium,Medium,Mitigate,Cloud Ops,No,Semi-Annual
